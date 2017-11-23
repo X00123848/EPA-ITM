@@ -1,0 +1,4 @@
+this goes to a file truncating it first
+this goes to a file appending it
+Thu 23 Nov 10:47:28 GMT 2017 this goes to a file appending it
+Timestamp: Thu 23 Nov 10:49:17 GMT 2017 Working Directory /home/epa/EPA-ITM/week10 
