@@ -1,11 +1,4 @@
 #!/bin/bash
 
-./cpujson.sh $1 &
-
-mpstat -o JSON
-#kills the name of the process
-
-pkill cpujson.sh
-
-
+mpstat $1 $2 -o JSON | jq '100 - .sysstat.hosts[0].statistics[0]."cpu-load"[0].idle'
 
